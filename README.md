@@ -46,18 +46,18 @@ MERN app
 
 
 
-### Our application UI for web version looks something like this:
+- Our application UI for web version looks something like this:
 
 ![Web Version](https://github.com/madhav06/projectImages/blob/master/Screenshot%202020-10-19%20at%209.27.09%20AM.png)
 
 
-### And the mobile app version looks something like this:
+- And the mobile app version looks something like this:
 
 ![Mobile App Versio](https://github.com/madhav06/projectImages/blob/master/Screenshot%202020-10-19%20at%209.27.34%20AM.png)
 
-### We are making an application called **tourbar** where users can share places they have visited.
+__We are making an application called **tourbar** where users can share places they have visited__
 
-### Adding validators for **Add Place Form** 
+#### Adding validators for **Add Place Form** 
 
 ```Javascript
 const VALIDATOR_TYPE_REQUIRE = 'REQUIRE';
@@ -93,9 +93,15 @@ for (const validator of validators) {
 ```
 
 
-### Finishing Add Place then:
+#### Finishing Add Place then:
 
 ![Add Place](https://github.com/madhav06/projectImages/blob/master/addform.png)
 
-### Work in progress!
+- here User can click on edit to update the places they have visited.
+
+![Edit Places](https://github.com/madhav06/projectImages/blob/master/editPlace1.png)
+
+- Once clicked, they can update the details they want to change:
+
+![Edit Places](https://github.com/madhav06/projectImages/blob/master/editPlace2.png)
 
