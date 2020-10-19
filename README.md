@@ -44,3 +44,18 @@ MERN app
 
   ![This is what monogDB does](https://github.com/madhav06/projectImages/blob/master/mongo.png)
 
+
+
+### Our application UI for web version looks something like this:
+
+![Web Version](https://github.com/madhav06/projectImages/blob/master/Screenshot%202020-10-19%20at%209.27.09%20AM.png)
+
+
+### And the mobile app version looks something like this:
+
+![Mobile App Versio](https://github.com/madhav06/projectImages/blob/master/Screenshot%202020-10-19%20at%209.27.34%20AM.png)
+
+### We are making an application called **tourbar** where users can share places they have visited.
+
+### Work in progress...
+
