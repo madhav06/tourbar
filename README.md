@@ -22,7 +22,7 @@ MERN app
  > It's a javascript runtime often used to create server-side applications.
  > Node JS is used to execute javascript code outside the browser.
 
-  ![This is what Node does](tourbar/images/node.png)
+  ![This is what Node does](https://github.com/madhav06/projectImages/blob/master/node.png)
 
 
 ### A brief note on Express...
@@ -31,7 +31,7 @@ MERN app
  > A Node framework which simplifies writing server-side code and logic.
  > Express is for Node what Laravel for PHP.
 
-  ![This is what Express does](tourbar/images/express.png)
+  ![This is what Express does](https://github.com/madhav06/projectImages/blob/master/express.png)
 
 ### A brief note on mongoDB...
 
@@ -42,5 +42,5 @@ MERN app
  > We can use other DBs also but then it would not be MERN application.
  > Considered as a powerful database which can be easily integrated into a Node/Express environment.
 
-  ![This is what monogDB does](h)
+  ![This is what monogDB does](https://github.com/madhav06/projectImages/blob/master/mongo.png)
 
