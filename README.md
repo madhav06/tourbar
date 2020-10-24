@@ -105,3 +105,16 @@ for (const validator of validators) {
 
 ![Edit Places](https://github.com/madhav06/projectImages/blob/master/editPlace2.png)
 
+- These will be the **API ENDPOINTS** in our application for backend.
+
+![API Endpoints](https://github.com/madhav06/projectImages/blob/master/api_endpoints.png)
+
+- Once frontend is done, for backends we need to install now required **Dependencies and Packages**
+
+```Javascript
+npm install --save express body-parser
+
+npm install --save-dev nodemon
+
+```
+
