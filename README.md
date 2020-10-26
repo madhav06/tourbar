@@ -2,33 +2,65 @@
 Our first MERN Stack project 
 
 - Here in our Full stack application we have: **Frontend** and **Backend**
-  Frontend holds react app with some components
-  and Backend holds the core js file.
+
+Frontend holds react app with some components and Backend holds the core js file.
 
 ### Basic development setup
   
-  __// navigate to frontend/proj_name__
-  > npm install 
+```Javascript
+  // navigate to frontend/proj_name
+  npm install 
 
-  __// navigate to backend/proj_name (in our case tourbar)__
-  > npm intall 
+  // navigate to backend/proj_name (in our case tourbar)
+  npm intall 
 
-  __// to start the server__
-  > npm start
+  // to start the server
+  npm start
 
+```
+**Wireframe of our app**
 
-- Let's understand first the basic idea How this app will work
-
-
-- **Sketching the frontend (wireframe)** 
- 
+![Sketch out app](https://github.com/madhav06/projectImages/blob/master/wireframe.png)
+  
 
 #### M - mongoDB (database solution)
+
+:octacat: Using **Homebrew** install MongoDB
+```
+// In terminal, to install MongoDB issue the following
+brew install mongodb-community@4.4
+
+// To run MongoDB as a macOS service, issue the following
+brew services start mongodb-community@4.4
+
+// To stop a MongoDB as a macOS service, issue the following
+brew services stop mongodb-community@4.4
+
+```
+
+how to perform **CRUD** operations in MongoDB [click here](https://docs.mongodb.com/manual/crud/)
+
+
 #### E - express (a nodejs framework)
+
+[Getting started with ExpressJS](https://expressjs.com/en/starter/installing.html)
+
 #### R - react (browser-side javascript library)
+
+[Getting started to React JS](https://create-react-app.dev/docs/getting-started/)
+
 #### N - nodejs (server-side javascript runtime)
 
-### So, here in this project we will be building a fullstack MERN application where our frontend will be in react and backend will be in Node.
+:octacat: Using **Homebrew** install node
+  > brew install node
+
+or alternatively, download node from official site:
+
+![INSTALL NODE](https://github.com/madhav06/projectImages/blob/master/node_install.png)
+
+
+
+- So, here in this project we will be building a fullstack MERN application where our frontend will be in react and backend will be in Node.
 
  :octocat: **What is React ?**
 
