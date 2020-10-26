@@ -1,10 +1,32 @@
 # tourbar
-MERN app
+Our first MERN Stack project 
 
-## M - mongoDB (database solution)
-## E - express (a nodejs framework)
-## R - react (browser-side javascript library)
-## N - nodejs (server-side javascript runtime)
+- Here in our Full stack application we have: **Frontend** and **Backend**
+  Frontend holds react app with some components
+  and Backend holds the core js file.
+
+### Basic development setup
+  
+  __// navigate to frontend/proj_name__
+  > npm install 
+
+  __// navigate to backend/proj_name (in our case tourbar)__
+  > npm intall 
+
+  __// to start the server__
+  > npm start
+
+
+- Let's understand first the basic idea How this app will work
+
+
+- **Sketching the frontend (wireframe)** 
+ 
+
+#### M - mongoDB (database solution)
+#### E - express (a nodejs framework)
+#### R - react (browser-side javascript library)
+#### N - nodejs (server-side javascript runtime)
 
 ### So, here in this project we will be building a fullstack MERN application where our frontend will be in react and backend will be in Node.
 
