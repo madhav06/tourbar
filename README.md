@@ -181,12 +181,29 @@ npm install --save mongoose
 - We will start server only when database is connected, else it will throw error.
 
 ```Javascript
-mongoose.connect(_URL_).then ( () => {
-  app.listen(5000);
-}).catch(err => {
-  console.log(err);
-});
+mongoose
+  .connect('mongodb+srv://dbMadhav:password12345@cluster0.lvnnc.gcp.mongodb.net/places?retryWrites=true&w=majority')
+  .then( () => {
+    app.listen(5000);
+  })
+  .catch(err => {
+    console.log(err);
+  });
 ```
+Let's start with basics:
+
+Login to MongoDB Atlas, then
+
+Step 1: mongoDB Atlas - Network Access -> Add IP -> Add current IP -> Confirm.
+
+Step 2: mongoDB Atlas -> Database Access -> Add new User -> Fill Details -> Add User.
+
+Step 3: mongoDB Atlas -> connect -> connect your Application.
+
+
+- Creating Schema and Model
+
+
 
 
 
