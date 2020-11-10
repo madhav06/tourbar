@@ -169,6 +169,25 @@ for (const validator of validators) {
 npm install --save express body-parser
 
 npm install --save-dev nodemon
+```
+#### Connecting Backend to the Database
+
+- Let's first install mongoose.
+
+```Javascript
+npm install --save mongoose
 
 ```
+- We will start server only when database is connected, else it will throw error.
+
+```Javascript
+mongoose.connect(_URL_).then ( () => {
+  app.listen(5000);
+}).catch(err => {
+  console.log(err);
+});
+```
+
+
+
 
